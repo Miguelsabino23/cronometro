@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cronômetro</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="">MG</a>
+                </div>
+                <div class="nav">
+                    <img class="timer" src="./assets/img/timer.png" alt="" />
+                    <img
+                        class="historico"
+                        src="./assets/img/histórico.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+            <div class="container-cronometro">
+                <div class="area-projeto">
+                    <p class="text-projeto">
+                        Vou trabalhar em
+                        <input
+                            id="input-projeto"
+                            type="text"
+                            placeholder="Dê um nome para o seu projeto"
+                        />.
+                    </p>
+                </div>
+                <div class="cronometro">
+                    <div class="minutos">0</div>
+                    <div class="minutos">0</div>
+                    <div class="pontos">:</div>
+                    <div class="segundos">0</div>
+                    <div class="segundos">0</div>
+                </div>
+                <div class="button">
+                    <button id="comecar" onclick="iniciarCronometro()">
+                        <img
+                            class="icone-button"
+                            src="./assets/img/Vector (Stroke).png"
+                            alt=""
+                        />
+                        Começar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

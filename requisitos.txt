@@ -1,0 +1,8 @@
+requisitos do projeto:
+1 - botão de pausar
+2 - botão de iniciar
+3 - botão de parar
+4 - botão de retornar
+5 - botão de histórico
+6 - o botão de histórico vai ter todas a informações quando eu clicar em parar 
+7 - colocar um botão de resetar no histórico para restar o histórico
